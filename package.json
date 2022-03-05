@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-learning-exercise",
+  "version": "1.0.0",
+  "description": "I coded the basic features of a PoW blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcav92/blockchain-learning-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcav92/blockchain-learning-exercise/issues"
+  },
+  "homepage": "https://github.com/marcav92/blockchain-learning-exercise#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "ws": "^8.5.0"
+  }
+}
